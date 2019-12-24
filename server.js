@@ -44,7 +44,7 @@ app.use("/UserInfoRoutes",UserInfoRoutes)
 
 
 // connect to mongoose
-mongoose.connect(process.env.DB , 
+mongoose.connect(DB , 
 {useNewUrlParser : true , useUnifiedTopology: true } )
 .then(()=> console.log('Mongodb is running'),(err)=> console.log(err) )
 
