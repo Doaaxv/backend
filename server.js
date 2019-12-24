@@ -13,7 +13,7 @@ const UserInfoRoutes = require("./routes/UserInfoRoutes")
 const PORT = process.env.PORT || 5000;
 const DB = process.env.DB_CONNECT;
 
-var allowedOrigins = ["http://localhost:5000", "https://git.heroku.com/community-for-developer.git"];
+var allowedOrigins = ["http://localhost:5000", "https://ddwfrontend.herokuapp.com"];
 
 app.use(
   cors({
